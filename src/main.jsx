@@ -6,7 +6,7 @@ import "./styles.css";
 
 createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/route-studio-task27">
       <Routes>
         <Route path="/" element={<Navigate to="/home" replace />} />
         <Route element={<App />}>
