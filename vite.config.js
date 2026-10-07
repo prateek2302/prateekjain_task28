@@ -1,5 +1,5 @@
 import { defineConfig } from "vite";
 
 export default defineConfig({
-  base: "/route-studio-task27/",
+  base: "/prateekjain_task27/",
 });
