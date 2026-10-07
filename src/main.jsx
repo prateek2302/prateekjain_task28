@@ -6,7 +6,7 @@ import "./styles.css";
 
 createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <BrowserRouter basename="/prateekjain_task27">
+    <BrowserRouter basename="/prateekjain_task28">
       <Routes>
         <Route path="/" element={<Navigate to="/home" replace />} />
         <Route element={<App />}>
