@@ -22,7 +22,7 @@ Open the local URL printed by Vite. To create a production build, run `npm run b
 
 ## Deploy on GitHub Pages
 
-The GitHub Actions workflow builds the app and publishes the `dist` folder when changes are pushed to `main`. The Vite base path is configured for the `route-studio-task27` repository.
+The GitHub Actions workflow builds the app and publishes the `dist` folder when changes are pushed to `main`. The Vite and React Router base paths are configured for the `route-studio-task27` repository. The build also generates a GitHub Pages fallback so direct visits and refreshes on nested routes load the React app.
 
 ## Implementation notes
 
